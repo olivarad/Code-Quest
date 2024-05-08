@@ -15,11 +15,17 @@ Code Quest is an interactive application designed to teach users programming ski
 - **Engaging Challenges**: Dive into coding challenges and exercises to reinforce learning.
 - **LGPL v2.0 License**: Licensed under the GNU Lesser General Public License (LGPL) v2.0, ensuring free and open-source access to the application.
 
+## Dependencies
+
+Code Quest requires CMake version 3.28.3 or higher
+Code Quest uses g++ to compile 
+
 ## Getting Started
 
 To get started with Code Quest, follow these steps:
 
-TBA
+1. From the Code-Quest root directory run build.sh
+2. Linux users can create an installation to use anywhere by running "make install" as a super user in the Build directory 
 
 ## License
 
