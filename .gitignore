@@ -36,3 +36,6 @@ Development/
 
 # Ignoring Build directory
 Build/
+
+# Ignoring wxWidgets directory
+wxWidgets-3.2.4/
