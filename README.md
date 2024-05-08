@@ -23,7 +23,7 @@ TBA
 
 ## License
 
-Code Quest is licensed under the GNU Lesser General Public License (LGPL) v2.0. See the LICENSE.txt file for details.
+Code Quest is licensed under the GNU Lesser General Public License (LGPL) v2.0. See the LICENSE file for details.
 
 ## Contributing
 
