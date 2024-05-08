@@ -33,3 +33,6 @@
 
 # Ignoring Development directory
 Development/
+
+# Ignoring Build directory
+Build/
