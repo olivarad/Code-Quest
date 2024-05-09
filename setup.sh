@@ -1,5 +1,11 @@
+# Install Git for any users who downloaded zipped repository or a release
+yes | sudo apt install git
+
 # Install build-essential
 yes | sudo apt install build-essential
+
+# Install CMake
+yes | sudo apt install cmake
 
 # Install wxWidgets dependencies
 echo $'Installing wxWidgets dependencies\n'
