@@ -1,10 +1,19 @@
-cmake_minimum_required(VERSION 3.28.3)
+cmake_minimum_required(VERSION 3.24)
 
 project(Code-Quest)
+ 
+find_package(wxWidgets REQUIRED COMPONENTS net core base)
+include(${wxWidgets_USE_FILE})
 
 # Path to source
 set (source "../Source")
 
-add_executable(${PROJECT_NAME} ${source}/main.cpp)
+# Define a variable containing a list of source files for the project
+set(SRC_FILES
+    ${source}/main.cpp
+    )
+
+add_executable(${PROJECT_NAME} ${SRC_FILES})
+target_link_libraries(${PROJECT_NAME} ${wxWidgets_LIBRARIES})
 
 install(TARGETS ${PROJECT_NAME} DESTINATION bin)
