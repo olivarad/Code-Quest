@@ -11,6 +11,8 @@ set (source "../Source")
 # Define a variable containing a list of source files for the project
 set(SRC_FILES
     ${source}/main.cpp
+    ${source}/Code-Quest.cpp
+    ${source}/MainFrame.cpp
     )
 
 add_executable(${PROJECT_NAME} ${SRC_FILES})
